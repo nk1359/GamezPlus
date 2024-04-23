@@ -1,0 +1,15 @@
+/*
+    CSS file that contains custom styles for the navigation bar and its hover effect.
+*/
+
+.navbar.bg-custom {
+    /* Sets the background color of the navigation bar */
+    background-color: #303f9f;
+}
+
+.navbar .nav-item:hover .nav-link {
+    /* Styles applied when hovering over navigation links */
+    background-color: white;
+    color: #303f9f;
+    border-radius: 15px;
+}
